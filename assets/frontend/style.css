@@ -1,0 +1,62 @@
+body {
+    background-color: #c5c5c5;
+}
+.submit-btn {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.emailIcon img {
+    width: 50px;
+    height: auto;
+}
+.emailIcon {
+    position: fixed;
+    right: 31px;
+    bottom: 88px;
+    z-index: 9999;
+}
+#callIcon img {
+    width: 40px;
+    height: auto;
+}
+#helpnotice {
+    position: fixed;
+    bottom: 190px;
+    right: 38px;
+    background: #00e2ff;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+#helpnotice span {
+    font-size: 35px;
+    position: fixed;
+    bottom: 220px;
+    background: #00e2ff;
+    padding: 0px 6px;
+    padding-bottom: 8px;
+    border-radius: 50%;
+    margin: 0!important;
+    line-height: 16px;
+    box-shadow: 1px 1px #206e91;
+    cursor: pointer;
+    z-index: 9999;
+    right: 40px;
+}
+#callIcon {
+    position: fixed;
+    right: 36px;
+    bottom: 150px;
+    z-index: 9999;
+}
+.skypeIcon img {
+    width: 50px;
+    height: auto;
+}
+
+.skypeIcon {
+    position: fixed;
+    bottom: 30px;
+    right: 165px;
+    z-index: 9999;
+}
