@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FormController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,4 +30,8 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [App\Http\Controllers\AdminController::class, 'profile'])->name('profile');
     Route::post('/profile/update', [App\Http\Controllers\AdminController::class, 'profile_update'])->name('update.profile');
     Route::post('/password/update', [App\Http\Controllers\AdminController::class, 'update_password'])->name('update.password');
+    Route::delete('/form/delete/{id}', [FormController::class, 'delete'])->name('form.delete');
+
+
+
 });
